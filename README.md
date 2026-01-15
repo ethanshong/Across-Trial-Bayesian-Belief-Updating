@@ -53,7 +53,7 @@ pip install -r requirements.txt
 Clone the repository:
 
 ```bash
-git clone https://github.com/USERNAME/Across-Trial-Bayesian-Belief-Updating.git
+git clone https://github.com/ethanshong/Across-Trial-Bayesian-Belief-Updating.git
 cd file_path/Across-Trial-Bayesian-Belief-Updating
 python experiments/run_models.py
 ```
