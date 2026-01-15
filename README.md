@@ -38,7 +38,7 @@ model_names = ['Unbiased', 'Omniscient', 'Biased']
     - graphing : matplotlib graphs for internal beliefs over time and calculate phase intervals
     - helper : functions to assist the executable (experiments/run_models.py)
 
-If you are able to get run_models.py to run, (with the exception of the omniscient model) you should see the bayesian optimizer working and iterating multiple times to achieve the optimal hyperparameters for a model of a single rat. Make sure your working directory is on Across-Trial-Bayesian-Belief-Updating!
+If you are able to get run_models.py to run, you should see the bayesian optimizer working and iterating multiple times (with the exception of the omniscient model) to achieve the optimal hyperparameters for a model of a single rat. Make sure your working directory is on Across-Trial-Bayesian-Belief-Updating!
 
 ![Expected Usage](code_sample.gif)
 
