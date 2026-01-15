@@ -180,14 +180,13 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Project outputs (generated)
 outputs/
-figures/
+!outputs/example_figures/
+!outputs/example_figures/**
+
 *.h5
 *.hdf5
-
-# Keep small example CSVs (optional)
-!data/example/*.csv
+*.csv
 
 !outputs/example_figures/*.csv
 !outputs/example_figures/*.h5
