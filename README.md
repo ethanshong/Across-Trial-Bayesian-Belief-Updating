@@ -38,8 +38,10 @@ If you are able to get run_models.py to run, you should see the bayesian optimiz
 ![GP4 belief evolution](outputs/example_figures/unbiased_GP4.svg)
 
 /src/ : all source files related to modeling, dataframe filtering, hazard-based decision-making, and plotting
-    - model files : contains functions for generating beliefs, computing log likelihood for a single run, bayesian-optimization for hyperparameters. Tune parameter bounds, change random seed & optimization iterations, and play with internal updating here.
-    - dataframe_filter : raw behavior data was separated by single trial data and averaged day data that is merged through a common UUID specific to each rat's trials on a single date. Used to also adjust other properties and calculate decision bins.
+    - model files : contains functions for generating beliefs, computing log likelihood for a single run, bayesian-optimization for hyperparameters. Tune parameter bounds, change random 
+    seed & optimization iterations, and play with internal updating here.
+    - dataframe_filter : raw behavior data was separated by single trial data and averaged day data that is merged through a common UUID specific to each rat's trials on a single date. Used 
+    to also adjust other properties and calculate decision bins.
     - graphing : matplotlib graphs for internal beliefs over time and calculate phase intervals
     - helper : functions to assist the executable (experiments/run_models.py)
 
