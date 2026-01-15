@@ -30,6 +30,7 @@ model_names = ['Unbiased', 'Omniscient', 'Biased']
 
 /outputs/ : directory for output figures, CSV's, H5 files as well as sample figures for reference
 
+**Example Figure of GP4 Internal Belief Evolution**
 ![GP4 belief evolution](outputs/example_figures/unbiased_GP4.svg)
 
 /src/ : all source files related to modeling, dataframe filtering, hazard-based decision-making, and plotting
