@@ -1,6 +1,6 @@
 # Across-Trial-Bayesian-Belief-Updating
 
-This repository is designed to fit multiple belief updating models to real rat behavior data for a local-global auditory oddball task. The aim is to characterize parameter-level differences between between wildtype and Fmr1-KO rats as well as to find minimally complex models that can explain behavioral readouts of predictive coding.
+This repository is designed to fit multiple belief updating models to real rat behavior data for a local-global auditory oddball task. The aim is to characterize parameter level differences between wildtype and Fmr1-KO rats as well as to find minimally complex models that can explain behavioral readouts of predictive coding.
 
 ## Overview
 
