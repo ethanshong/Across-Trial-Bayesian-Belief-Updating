@@ -46,4 +46,4 @@ Notable properties include:
 'Trial_number' : 1-indexed, restarts per day
 
 
-** This folder contains partial behavioral data generated to demonstrate the analysis pipeline. The data does not correspond to complete or continuous behavioral data and is purely for modeling purposes **
+**This folder contains partial behavioral data generated to demonstrate the analysis pipeline. The data does not correspond to complete or continuous behavioral data and is purely for modeling purposes.**
