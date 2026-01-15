@@ -26,6 +26,10 @@ days = pd.read_csv("data/example/Oddball_data_exported.csv")
 model_names = ['Unbiased', 'Omniscient', 'Biased']
 ```
 
+If you are able to get run_models.py to run, you should see the bayesian optimizer working and iterating multiple times (with the exception of the omniscient model) to achieve the optimal hyperparameters for a model of a single rat. Make sure your working directory is on Across-Trial-Bayesian-Belief-Updating!
+
+![Expected Usage](code_sample.gif)
+
 /notebooks/ : previous iterations of the internal belief updating and decision-making models. Mostly unusable.
 
 /outputs/ : directory for output figures, CSV's, H5 files as well as sample figures for reference
@@ -38,10 +42,6 @@ model_names = ['Unbiased', 'Omniscient', 'Biased']
     - dataframe_filter : raw behavior data was separated by single trial data and averaged day data that is merged through a common UUID specific to each rat's trials on a single date. Used to also adjust other properties and calculate decision bins.
     - graphing : matplotlib graphs for internal beliefs over time and calculate phase intervals
     - helper : functions to assist the executable (experiments/run_models.py)
-
-If you are able to get run_models.py to run, you should see the bayesian optimizer working and iterating multiple times (with the exception of the omniscient model) to achieve the optimal hyperparameters for a model of a single rat. Make sure your working directory is on Across-Trial-Bayesian-Belief-Updating!
-
-![Expected Usage](code_sample.gif)
 
 ## Installation 
 This project uses python 3.10. To install the required packages use the requirements.txt file.
