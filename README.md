@@ -4,7 +4,7 @@ This repository is designed to fit multiple belief updating models to real rat b
 
 ## Overview
 
-Rats were presented an auditory detection task, where 6 beeps were presented in sequence and in positions 4 though 6 a single deviant beep occurred. In response to this deviant rats pulled their nose from a stationary port and were rewarded. The belief of where the rat throught the true deviant was recorded as an internal prior and modeled accross trials and phases. The within-trial (local) belief was modeled as a static hazard function.
+Rats were presented an auditory detection task, where 6 beeps were presented in sequence and a single deviant occurred in positions 4 though 6. In response to this deviant rats pulled their nose from a stationary port and were rewarded. The belief of where the rat throught the true deviant was recorded as an internal prior and modeled accross trials and phases. The within-trial (local) belief was modeled as a static hazard function.
 
 Across Trial Belief Models:
 - Biased 
