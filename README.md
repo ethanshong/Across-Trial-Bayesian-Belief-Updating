@@ -12,7 +12,7 @@ Across Trial Belief Models:
 - Change Point / Latent-phase learning 
 - Omniscient / Phase-aware
 
-## Structure
+## Repository Structure
 /data/ : sample data excised from real raw behavior data. More information on the data requirements in data/README.md
 
 /experiments/ : contains the executable file to generate figures and internal belief values over across trials
