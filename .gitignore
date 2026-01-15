@@ -188,3 +188,8 @@ figures/
 
 # Keep small example CSVs (optional)
 !data/example/*.csv
+
+!outputs/example_figures/*.csv
+!outputs/example_figures/*.h5
+!outputs/example_figures/*.hdf5
+!outputs/example_figures/*.svg
