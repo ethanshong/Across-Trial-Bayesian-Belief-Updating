@@ -57,3 +57,10 @@ git clone https://github.com/ethanshong/Across-Trial-Bayesian-Belief-Updating.gi
 cd file_path/Across-Trial-Bayesian-Belief-Updating
 python experiments/run_models.py
 ```
+
+## Acknowledgements
+
+I would like to thank the Auerbach lab and particularly my graduate mentor, Walker Gauthier for mentorship and guidance throughout this project and the University of Illinois-Urbana Champaign for support.
+
+The paper is currently in review but will be cited and specified here
+
